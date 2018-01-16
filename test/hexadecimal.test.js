@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const hexadecimal = require('../src').hexadecimal
+const hexadecimal = require('../src/hexadecimal')
 
 describe('Hexadecimal', () => {
   it('must be transformed to 6 chars when only 3 are given', () => {

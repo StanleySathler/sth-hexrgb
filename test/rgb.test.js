@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const rgb = require('../src/rgb')
+const rgb = require('..').rgb
 
 describe('RGB', () => {
   it('must convert an RGB object into an hexadecimal value', () => {

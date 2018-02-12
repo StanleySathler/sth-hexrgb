@@ -41,8 +41,8 @@ const toRGB = (hexaCode) => {
 }
 
 module.exports = {
-  forceHash: forceHash,
-  verbose: verbose,
-  simplify: simplify,
-  toRGB: toRGB,
+  forceHash,
+  verbose,
+  simplify,
+  toRGB
 }

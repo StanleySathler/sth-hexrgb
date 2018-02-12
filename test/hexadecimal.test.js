@@ -13,7 +13,7 @@ describe('Hexadecimal', () => {
     expect(normalHexa).to.equal('#fff000')
   })
 
-  it('values with no hashtag must get one', () => {
+  it('values with no hashtag must get one added automatically', () => {
     let hexaWithHash = hexadecimal.forceHash('fa22af')
     expect(hexaWithHash).to.equal('#fa22af')
 
@@ -21,7 +21,7 @@ describe('Hexadecimal', () => {
     expect(hexaWithHash).to.equal('#fb5')
   })
 
-  it('must be converted to an object representing a rgb object', () => {
+  it('must be converted to an object representing an RGB object', () => {
     const hexa = '#ffffff'
     const rgb = hexadecimal.toRGB(hexa)
     expect(rgb).to.eql({ r: 255, g: 255, b: 255 })

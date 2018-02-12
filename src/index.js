@@ -1,2 +1,2 @@
-const hexadecimal = require('./hexadecimal')
-module.exports.hexadecimal = hexadecimal
+module.exports.hexadecimal = require('./hexadecimal')
+module.exports.rgb = require('./rgb')

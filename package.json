@@ -1,8 +1,8 @@
 {
-  "name": "sth-hexa-rgb",
+  "name": "sth-hex-rgb",
   "version": "1.0.0",
   "description": "Small library to help you dealing with conversions between Hexa and RGB and vice-versa",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test"
   },
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/npm/npm.git"
+    "url" : "https://github.com/StanleySathler/sth-hex-rgb"
   },
   "author": "Stanley Sathler <stanleysathlerpinto@gmail.com>",
   "license": "MIT",
